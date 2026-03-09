@@ -1,0 +1,2549 @@
+{
+  "baseRunDir": "C:\\Users\\VolodymyrKravets\\Desktop\\FE_Test\\digital-taf-perf-fe-scripts\\ReleaseScript\\Metric_results\\run_CTR_rc26.3.3_azure_585858",
+  "compareRunDir": "C:\\Users\\VolodymyrKravets\\Desktop\\FE_Test\\digital-taf-perf-fe-scripts\\ReleaseScript\\Metric_results\\run_CTR_rc26.3.3_azure_585859",
+  "pairs": {
+    "metrics_CTR_guest_rc26.3.3_azure__Home_Page.json": {
+      "baseFile": "Metric_results/run_CTR_rc26.3.3_azure_585858\\metrics_CTR_guest_rc26.3.3_azure_585858_Home_Page.json",
+      "compareFile": "Metric_results/run_CTR_rc26.3.3_azure_585859\\metrics_CTR_guest_rc26.3.3_azure_585859_Home_Page.json",
+      "diff": {
+        "BackendLoad": {
+          "base": 23.9,
+          "compare": 22.0,
+          "diff": -1.9,
+          "diffPercent": -7.95
+        },
+        "CLS": {
+          "base": 0.0,
+          "compare": 0.71,
+          "diff": 0.71,
+          "diffPercent": 16543.73
+        },
+        "DOMCompleteTime": {
+          "base": 6786.0,
+          "compare": 6094.6,
+          "diff": -691.4,
+          "diffPercent": -10.19
+        },
+        "DOMContentLoad": {
+          "base": 781.5,
+          "compare": 2715.5,
+          "diff": 1934.0,
+          "diffPercent": 247.47
+        },
+        "DOMInteractiveTime": {
+          "base": 1239.0,
+          "compare": 1783.4,
+          "diff": 544.4,
+          "diffPercent": 43.94
+        },
+        "DomSize": {
+          "base": 2066.0,
+          "compare": 2066.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "FCP": {
+          "base": 512.0,
+          "compare": 848.0,
+          "diff": 336.0,
+          "diffPercent": 65.62
+        },
+        "FrontendLoad": {
+          "base": 8835.2,
+          "compare": 10638.2,
+          "diff": 1803.0,
+          "diffPercent": 20.41
+        },
+        "JStimestampnano": {
+          "base": 15103025631500.0,
+          "compare": 14999255254700.0,
+          "diff": -103770376800.0,
+          "diffPercent": -0.69
+        },
+        "LoadCompleteTime": {
+          "base": 28.7,
+          "compare": 44.7,
+          "diff": 16.0,
+          "diffPercent": 55.75
+        },
+        "Page": {
+          "base": "Home_Page",
+          "compare": "Home_Page",
+          "changed": false
+        },
+        "PageLoadTime": {
+          "base": 8859.1,
+          "compare": 10660.2,
+          "diff": 1801.1,
+          "diffPercent": 20.33
+        },
+        "RedirectionTime": {
+          "base": 9.1,
+          "compare": 11.9,
+          "diff": 2.8,
+          "diffPercent": 30.77
+        },
+        "ServerConnectionTime": {
+          "base": 0.0,
+          "compare": 0.0,
+          "diff": 0.0,
+          "diffPercent": null
+        },
+        "ServerResponseTime": {
+          "base": 14.8,
+          "compare": 10.1,
+          "diff": -4.7,
+          "diffPercent": -31.76
+        },
+        "TBT": {
+          "base": 3133.0,
+          "compare": 5449.0,
+          "diff": 2316.0,
+          "diffPercent": 73.92
+        },
+        "atf_adobeLaunchScriptReceived": {
+          "base": 203.0,
+          "compare": 238.0,
+          "diff": 35.0,
+          "diffPercent": 17.24
+        },
+        "atf_adobeLaunchScriptRequested": {
+          "base": 128.0,
+          "compare": 61.0,
+          "diff": -67.0,
+          "diffPercent": -52.34
+        },
+        "banner": {
+          "base": "CTR",
+          "compare": "CTR",
+          "changed": false
+        },
+        "build_id": {
+          "base": "azure_585858",
+          "compare": "azure_585859",
+          "changed": true
+        },
+        "connectEnd": {
+          "base": 9.1,
+          "compare": 11.9,
+          "diff": 2.8,
+          "diffPercent": 30.77
+        },
+        "connectStart": {
+          "base": 9.1,
+          "compare": 11.9,
+          "diff": 2.8,
+          "diffPercent": 30.77
+        },
+        "decodedBodySize": {
+          "base": 320076.0,
+          "compare": 320076.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "device": {
+          "base": "DESKTOP",
+          "compare": "DESKTOP",
+          "changed": false
+        },
+        "domComplete": {
+          "base": 8830.4,
+          "compare": 10615.5,
+          "diff": 1785.1,
+          "diffPercent": 20.22
+        },
+        "domContentLoadedEventEnd": {
+          "base": 2044.4,
+          "compare": 4520.9,
+          "diff": 2476.5,
+          "diffPercent": 121.14
+        },
+        "domContentLoadedEventStart": {
+          "base": 2027.0,
+          "compare": 4504.0,
+          "diff": 2477.0,
+          "diffPercent": 122.2
+        },
+        "domInteractive": {
+          "base": 1262.9,
+          "compare": 1805.4,
+          "diff": 542.5,
+          "diffPercent": 42.96
+        },
+        "domLoading": {
+          "base": null,
+          "compare": null,
+          "changed": false
+        },
+        "encodedBodySize": {
+          "base": 65312.0,
+          "compare": 65312.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "env": {
+          "base": "PERF",
+          "compare": "PERF",
+          "changed": false
+        },
+        "eventType": {
+          "base": "FrontendPerformance",
+          "compare": "FrontendPerformance",
+          "changed": false
+        },
+        "eventurl": {
+          "base": "https://perf-www.canadiantire.ca/en.html",
+          "compare": "https://perf-www.canadiantire.ca/en.html",
+          "changed": false
+        },
+        "fetchStart": {
+          "base": 9.1,
+          "compare": 11.9,
+          "diff": 2.8,
+          "diffPercent": 30.77
+        },
+        "fetch_count": {
+          "base": 3.0,
+          "compare": 3.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "fetch_duration": {
+          "base": 234.5,
+          "compare": 256.2,
+          "diff": 21.7,
+          "diffPercent": 9.25
+        },
+        "fetch_renderBlocking": {
+          "base": 0.0,
+          "compare": 0.0,
+          "diff": 0.0,
+          "diffPercent": null
+        },
+        "fetch_transferSize": {
+          "base": 0.0,
+          "compare": 0.0,
+          "diff": 0.0,
+          "diffPercent": null
+        },
+        "first_paint": {
+          "base": 512.0,
+          "compare": 848.0,
+          "diff": 336.0,
+          "diffPercent": 65.62
+        },
+        "iframe_count": {
+          "base": 2.0,
+          "compare": 3.0,
+          "diff": 1.0,
+          "diffPercent": 50.0
+        },
+        "iframe_duration": {
+          "base": 351.9,
+          "compare": 309.4,
+          "diff": -42.5,
+          "diffPercent": -12.08
+        },
+        "iframe_renderBlocking": {
+          "base": 0.0,
+          "compare": 0.0,
+          "diff": 0.0,
+          "diffPercent": null
+        },
+        "iframe_transferSize": {
+          "base": 0.0,
+          "compare": 0.0,
+          "diff": 0.0,
+          "diffPercent": null
+        },
+        "loadEventEnd": {
+          "base": 8859.1,
+          "compare": 10660.2,
+          "diff": 1801.1,
+          "diffPercent": 20.33
+        },
+        "loadEventStart": {
+          "base": 8833.0,
+          "compare": 10617.6,
+          "diff": 1784.6,
+          "diffPercent": 20.2
+        },
+        "navigationStart": {
+          "base": null,
+          "compare": null,
+          "changed": false
+        },
+        "periodicity": {
+          "base": "smoke",
+          "compare": "smoke",
+          "changed": false
+        },
+        "redirectEnd": {
+          "base": 9.1,
+          "compare": 11.9,
+          "diff": 2.8,
+          "diffPercent": 30.77
+        },
+        "redirectStart": {
+          "base": 1.7,
+          "compare": 1.8,
+          "diff": 0.1,
+          "diffPercent": 5.88
+        },
+        "requestStart": {
+          "base": 11.2,
+          "compare": 15.2,
+          "diff": 4.0,
+          "diffPercent": 35.71
+        },
+        "resources_total_count": {
+          "base": 6.0,
+          "compare": 7.0,
+          "diff": 1.0,
+          "diffPercent": 16.67
+        },
+        "resources_total_duration": {
+          "base": 741.8,
+          "compare": 730.2,
+          "diff": -11.6,
+          "diffPercent": -1.56
+        },
+        "resources_total_renderBlocking": {
+          "base": 0.0,
+          "compare": 0.0,
+          "diff": 0.0,
+          "diffPercent": null
+        },
+        "resources_total_transferSize": {
+          "base": 517.0,
+          "compare": 517.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "responseEnd": {
+          "base": 23.9,
+          "compare": 22.0,
+          "diff": -1.9,
+          "diffPercent": -7.95
+        },
+        "responseStart": {
+          "base": 18.6,
+          "compare": 19.0,
+          "diff": 0.4,
+          "diffPercent": 2.15
+        },
+        "scenario": {
+          "base": "main_flow",
+          "compare": "main_flow",
+          "changed": false
+        },
+        "script_count": {
+          "base": 1.0,
+          "compare": 1.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "script_duration": {
+          "base": 155.4,
+          "compare": 164.6,
+          "diff": 9.2,
+          "diffPercent": 5.92
+        },
+        "script_renderBlocking": {
+          "base": 0.0,
+          "compare": 0.0,
+          "diff": 0.0,
+          "diffPercent": null
+        },
+        "script_transferSize": {
+          "base": 517.0,
+          "compare": 517.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "transferSize": {
+          "base": 65612.0,
+          "compare": 65612.0,
+          "diff": 0.0,
+          "diffPercent": 0.0
+        },
+        "usertype": {
+          "base": "guest",
+          "compare": "guest",
+          "changed": false
+        },
+        "version": {
+          "base": "rc26.3.3",
+          "compare": "rc26.3.3",
+          "changed": false
+        }
+      }
+    },
+    "network-metrics_CTR_guest_rc26.3.3_azure__Home_Page.json": {
+      "baseFile": "Metric_results/run_CTR_rc26.3.3_azure_585858\\network-metrics_CTR_guest_rc26.3.3_azure_585858_Home_Page.json",
+      "compareFile": "Metric_results/run_CTR_rc26.3.3_azure_585859\\network-metrics_CTR_guest_rc26.3.3_azure_585859_Home_Page.json",
+      "diff": {
+        "caching": {
+          "cacheable": {
+            "base": 307.0,
+            "compare": 291.0,
+            "diff": -16.0,
+            "diffPercent": -5.21
+          },
+          "notCacheable": {
+            "base": 151.0,
+            "compare": 153.0,
+            "diff": 2.0,
+            "diffPercent": 1.32
+          }
+        },
+        "cookies": {
+          "requestsWithCookies": {
+            "base": 3.0,
+            "compare": 3.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "responseSetCookieHeaders": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          }
+        },
+        "empty": {
+          "base": false,
+          "compare": false,
+          "changed": false
+        },
+        "externalRequests": {
+          "hosts": {
+            "": {
+              "base": 40.0,
+              "compare": 40.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "8858581.fls.doubleclick.net": {
+              "base": 4.0,
+              "compare": 4.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "ad.doubleclick.net": {
+              "base": 4.0,
+              "compare": 4.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "apim-pprd.canadiantire.ca": {
+              "base": 6.0,
+              "compare": 6.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "assets.adobedtm.com": {
+              "base": 22.0,
+              "compare": 21.0,
+              "diff": -1.0,
+              "diffPercent": -4.55
+            },
+            "bam.nr-data.net": {
+              "base": 6.0,
+              "compare": 5.0,
+              "diff": -1.0,
+              "diffPercent": -16.67
+            },
+            "canadiantire.scene7.com": {
+              "base": 17.0,
+              "compare": 17.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "canadiantire.tt.omtrdc.net": {
+              "base": 3.0,
+              "compare": 3.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "canadiantirecorporation.us-6.evergage.com": {
+              "base": 1.0,
+              "compare": 1.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "cdn-scripts.signifyd.com": {
+              "base": 6.0,
+              "compare": 6.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "cdn.cookielaw.org": {
+              "base": 18.0,
+              "compare": 16.0,
+              "diff": -2.0,
+              "diffPercent": -11.11
+            },
+            "cdn.evgnet.com": {
+              "base": 2.0,
+              "compare": 2.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "cdns.gigya.com": {
+              "base": 4.0,
+              "compare": 3.0,
+              "diff": -1.0,
+              "diffPercent": -25.0
+            },
+            "content.canadiantire.ca": {
+              "base": 18.0,
+              "compare": 19.0,
+              "diff": 1.0,
+              "diffPercent": 5.56
+            },
+            "d.criteo.com": {
+              "base": 1.0,
+              "compare": 1.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "d.impactradius-event.com": {
+              "base": 2.0,
+              "compare": 2.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "dp.signifyd.com": {
+              "base": 4.0,
+              "compare": 4.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "dynamic.criteo.com": {
+              "base": 1.0,
+              "compare": 1.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "edge.adobedc.net": {
+              "base": 8.0,
+              "compare": 8.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "edge.curalate.com": {
+              "base": 6.0,
+              "compare": 6.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "fonts.googleapis.com": {
+              "base": 2.0,
+              "compare": 2.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "fonts.gstatic.com": {
+              "base": 6.0,
+              "compare": 6.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "geolocation.onetrust.com": {
+              "base": 2.0,
+              "compare": 2.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "gigya.canadiantire.ca": {
+              "base": 13.0,
+              "compare": 13.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "googleads.g.doubleclick.net": {
+              "base": null,
+              "compare": 2,
+              "changed": true
+            },
+            "gum.criteo.com": {
+              "base": 1.0,
+              "compare": 1.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "h.online-metrix.net": {
+              "base": 19.0,
+              "compare": 19.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "h64.online-metrix.net": {
+              "base": 2.0,
+              "compare": 2.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "imgs.signifyd.com": {
+              "base": 2.0,
+              "compare": 2.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "js-agent.newrelic.com": {
+              "base": 2.0,
+              "compare": 2.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "media-triangle.canadiantire.ca": {
+              "base": 18.0,
+              "compare": 18.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "media-www.canadiantire.ca": {
+              "base": 60.0,
+              "compare": 60.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "s7d5.scene7.com": {
+              "base": 1.0,
+              "compare": 1.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "securepubads.g.doubleclick.net": {
+              "base": 6.0,
+              "compare": 5.0,
+              "diff": -1.0,
+              "diffPercent": -16.67
+            },
+            "slchvg9p77utfar5sz2togpwmjdaifqixizntozq0b245c5a05fe42fbsac.d.aa.online-metrix.net": {
+              "base": null,
+              "compare": 1,
+              "changed": true
+            },
+            "slchvg9p77utfar5sz2togpwmjdaifqixizntozqf69e0d3447066e04sac.d.aa.online-metrix.net": {
+              "base": null,
+              "compare": 1,
+              "changed": true
+            },
+            "slchvg9pcxpy47yxmne2dlgyfzesfbnxzkegek3u17ac66b23bbf0ae9sac.d.aa.online-metrix.net": {
+              "base": 1,
+              "compare": null,
+              "changed": true
+            },
+            "slchvg9pcxpy47yxmne2dlgyfzesfbnxzkegek3u9a2b71a080f727dasac.d.aa.online-metrix.net": {
+              "base": 1,
+              "compare": null,
+              "changed": true
+            },
+            "sslwidget.criteo.com": {
+              "base": 1.0,
+              "compare": 1.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "www.canadiantire.ca": {
+              "base": 1.0,
+              "compare": 1.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "www.google-analytics.com": {
+              "base": 5.0,
+              "compare": 4.0,
+              "diff": -1.0,
+              "diffPercent": -20.0
+            },
+            "www.google.com": {
+              "base": 8.0,
+              "compare": 9.0,
+              "diff": 1.0,
+              "diffPercent": 12.5
+            },
+            "www.googletagmanager.com": {
+              "base": 12.0,
+              "compare": 3.0,
+              "diff": -9.0,
+              "diffPercent": -75.0
+            }
+          },
+          "mainHost": {
+            "base": "perf-www.canadiantire.ca",
+            "compare": "perf-www.canadiantire.ca",
+            "changed": false
+          }
+        },
+        "headers": {
+          "averageRequestHeaders": {
+            "base": 5.21,
+            "compare": 5.19,
+            "diff": -0.02,
+            "diffPercent": -0.38
+          },
+          "averageResponseHeaders": {
+            "base": 13.37,
+            "compare": 13.17,
+            "diff": -0.2,
+            "diffPercent": -1.5
+          }
+        },
+        "pageLoadTimeMs": {
+          "base": 52861.07,
+          "compare": 55383.76,
+          "diff": 2522.69,
+          "diffPercent": 4.77
+        },
+        "payloads": {
+          "averageBodySizeBytes": {
+            "base": 80006.83,
+            "compare": 71466.72,
+            "diff": -8540.11,
+            "diffPercent": -10.67
+          },
+          "averageContentSizeBytes": {
+            "base": 21620.28,
+            "compare": 17445.17,
+            "diff": -4175.11,
+            "diffPercent": -19.31
+          }
+        },
+        "requestCount": {
+          "base": 458.0,
+          "compare": 444.0,
+          "diff": -14.0,
+          "diffPercent": -3.06
+        },
+        "requests": {
+          "baseCount": 458,
+          "compareCount": 444,
+          "note": "Per-request details not diffed; only counts are compared."
+        },
+        "resourceTypes": {
+          "css": {
+            "count": {
+              "base": 8.0,
+              "compare": 7.0,
+              "diff": -1.0,
+              "diffPercent": -12.5
+            },
+            "totalBodySize": {
+              "base": 5941256.0,
+              "compare": 5916360.0,
+              "diff": -24896.0,
+              "diffPercent": -0.42
+            },
+            "totalTime": {
+              "base": 2161.91,
+              "compare": 9166.08,
+              "diff": 7004.17,
+              "diffPercent": 323.98
+            }
+          },
+          "document": {
+            "count": {
+              "base": 32.0,
+              "compare": 32.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "totalBodySize": {
+              "base": 828587.0,
+              "compare": 836883.0,
+              "diff": 8296.0,
+              "diffPercent": 1.0
+            },
+            "totalTime": {
+              "base": 5520.36,
+              "compare": 7288.72,
+              "diff": 1768.36,
+              "diffPercent": 32.03
+            }
+          },
+          "font": {
+            "count": {
+              "base": 18.0,
+              "compare": 18.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "totalBodySize": {
+              "base": 1509264.0,
+              "compare": 1509264.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "totalTime": {
+              "base": 4762.71,
+              "compare": 1802.63,
+              "diff": -2960.08,
+              "diffPercent": -62.15
+            }
+          },
+          "image": {
+            "count": {
+              "base": 97.0,
+              "compare": 98.0,
+              "diff": 1.0,
+              "diffPercent": 1.03
+            },
+            "totalBodySize": {
+              "base": 3051608.0,
+              "compare": 3051608.0,
+              "diff": 0.0,
+              "diffPercent": 0.0
+            },
+            "totalTime": {
+              "base": 133672.91,
+              "compare": 358056.87,
+              "diff": 224383.96,
+              "diffPercent": 167.86
+            }
+          },
+          "js": {
+            "count": {
+              "base": 142.0,
+              "compare": 136.0,
+              "diff": -6.0,
+              "diffPercent": -4.23
+            },
+            "totalBodySize": {
+              "base": 20602409.0,
+              "compare": 17647760.0,
+              "diff": -2954649.0,
+              "diffPercent": -14.34
+            },
+            "totalTime": {
+              "base": 58883.27,
+              "compare": 172161.32,
+              "diff": 113278.05,
+              "diffPercent": 192.38
+            }
+          },
+          "other": {
+            "count": {
+              "base": 161.0,
+              "compare": 153.0,
+              "diff": -8.0,
+              "diffPercent": -4.97
+            },
+            "totalBodySize": {
+              "base": 4710002.0,
+              "compare": 2769349.0,
+              "diff": -1940653.0,
+              "diffPercent": -41.2
+            },
+            "totalTime": {
+              "base": 73873.04,
+              "compare": 30263.76,
+              "diff": -43609.28,
+              "diffPercent": -59.03
+            }
+          }
+        },
+        "statusCodes": {
+          "0": {
+            "base": 56.0,
+            "compare": 55.0,
+            "diff": -1.0,
+            "diffPercent": -1.79
+          },
+          "200": {
+            "base": 379.0,
+            "compare": 367.0,
+            "diff": -12.0,
+            "diffPercent": -3.17
+          },
+          "204": {
+            "base": 12.0,
+            "compare": 11.0,
+            "diff": -1.0,
+            "diffPercent": -8.33
+          },
+          "301": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "302": {
+            "base": 4.0,
+            "compare": 4.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "401": {
+            "base": 6.0,
+            "compare": 6.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          }
+        },
+        "timings": {
+          "connect": {
+            "averageMs": {
+              "base": 42.8,
+              "compare": 89.01,
+              "diff": 46.21,
+              "diffPercent": 107.97
+            },
+            "maxMs": {
+              "base": 273.03,
+              "compare": 934.3,
+              "diff": 661.27,
+              "diffPercent": 242.2
+            },
+            "samples": {
+              "base": 51.0,
+              "compare": 49.0,
+              "diff": -2.0,
+              "diffPercent": -3.92
+            }
+          },
+          "dns": {
+            "averageMs": {
+              "base": 15.96,
+              "compare": 58.59,
+              "diff": 42.63,
+              "diffPercent": 267.11
+            },
+            "maxMs": {
+              "base": 262.07,
+              "compare": 923.69,
+              "diff": 661.62,
+              "diffPercent": 252.46
+            },
+            "samples": {
+              "base": 51.0,
+              "compare": 49.0,
+              "diff": -2.0,
+              "diffPercent": -3.92
+            }
+          },
+          "receive": {
+            "averageMs": {
+              "base": 142.05,
+              "compare": 542.43,
+              "diff": 400.38,
+              "diffPercent": 281.86
+            },
+            "maxMs": {
+              "base": 2161.94,
+              "compare": 4399.69,
+              "diff": 2237.75,
+              "diffPercent": 103.51
+            },
+            "samples": {
+              "base": 458.0,
+              "compare": 444.0,
+              "diff": -14.0,
+              "diffPercent": -3.06
+            }
+          },
+          "send": {
+            "averageMs": {
+              "base": 1.13,
+              "compare": 0.98,
+              "diff": -0.15,
+              "diffPercent": -13.27
+            },
+            "maxMs": {
+              "base": 228.45,
+              "compare": 125.41,
+              "diff": -103.04,
+              "diffPercent": -45.1
+            },
+            "samples": {
+              "base": 458.0,
+              "compare": 444.0,
+              "diff": -14.0,
+              "diffPercent": -3.06
+            }
+          },
+          "ssl": {
+            "averageMs": {
+              "base": 19.1,
+              "compare": 21.66,
+              "diff": 2.56,
+              "diffPercent": 13.4
+            },
+            "maxMs": {
+              "base": 70.58,
+              "compare": 87.93,
+              "diff": 17.35,
+              "diffPercent": 24.58
+            },
+            "samples": {
+              "base": 47.0,
+              "compare": 46.0,
+              "diff": -1.0,
+              "diffPercent": -2.13
+            }
+          },
+          "wait": {
+            "averageMs": {
+              "base": 264.2,
+              "compare": 190.73,
+              "diff": -73.47,
+              "diffPercent": -27.81
+            },
+            "maxMs": {
+              "base": 1696.84,
+              "compare": 4306.53,
+              "diff": 2609.69,
+              "diffPercent": 153.8
+            },
+            "samples": {
+              "base": 458.0,
+              "compare": 444.0,
+              "diff": -14.0,
+              "diffPercent": -3.06
+            }
+          }
+        },
+        "totalBodySizeBytes": {
+          "base": 36643126.0,
+          "compare": 31731224.0,
+          "diff": -4911902.0,
+          "diffPercent": -13.4
+        },
+        "totalContentSizeBytes": {
+          "base": 9902086.0,
+          "compare": 7745654.0,
+          "diff": -2156432.0,
+          "diffPercent": -21.78
+        },
+        "ttfb": {
+          "averageMs": {
+            "base": 264.2,
+            "compare": 190.73,
+            "diff": -73.47,
+            "diffPercent": -27.81
+          },
+          "maxMs": {
+            "base": 1696.84,
+            "compare": 4306.53,
+            "diff": 2609.69,
+            "diffPercent": 153.8
+          },
+          "samples": {
+            "base": 458.0,
+            "compare": 444.0,
+            "diff": -14.0,
+            "diffPercent": -3.06
+          }
+        }
+      },
+      "hostsTiming": {
+        "8858581.fls.doubleclick.net": {
+          "avgReceiveMs": {
+            "base": 3.78,
+            "compare": 3.71,
+            "diff": -0.08,
+            "diffPercent": -1.98
+          },
+          "avgWaitMs": {
+            "base": 18.7,
+            "compare": 10.96,
+            "diff": -7.74,
+            "diffPercent": -41.41
+          },
+          "maxReceiveMs": {
+            "base": 8.46,
+            "compare": 10.22,
+            "diff": 1.76,
+            "diffPercent": 20.8
+          },
+          "maxWaitMs": {
+            "base": 37.82,
+            "compare": 25.17,
+            "diff": -12.65,
+            "diffPercent": -33.45
+          },
+          "requestCount": {
+            "base": 4.0,
+            "compare": 4.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 322.85,
+            "compare": 214.38,
+            "diff": -108.47,
+            "diffPercent": -33.6
+          }
+        },
+        "ad.doubleclick.net": {
+          "avgReceiveMs": {
+            "base": 0.89,
+            "compare": 1.03,
+            "diff": 0.14,
+            "diffPercent": 16.01
+          },
+          "avgWaitMs": {
+            "base": 419.36,
+            "compare": 389.81,
+            "diff": -29.55,
+            "diffPercent": -7.05
+          },
+          "maxReceiveMs": {
+            "base": 2.14,
+            "compare": 2.43,
+            "diff": 0.29,
+            "diffPercent": 13.55
+          },
+          "maxWaitMs": {
+            "base": 646.22,
+            "compare": 751.25,
+            "diff": 105.03,
+            "diffPercent": 16.25
+          },
+          "requestCount": {
+            "base": 4.0,
+            "compare": 4.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 1715.61,
+            "compare": 1596.42,
+            "diff": -119.19,
+            "diffPercent": -6.95
+          }
+        },
+        "apim-pprd.canadiantire.ca": {
+          "avgReceiveMs": {
+            "base": 2.59,
+            "compare": 1.04,
+            "diff": -1.55,
+            "diffPercent": -59.76
+          },
+          "avgWaitMs": {
+            "base": 429.41,
+            "compare": 515.79,
+            "diff": 86.38,
+            "diffPercent": 20.12
+          },
+          "maxReceiveMs": {
+            "base": 9.88,
+            "compare": 1.29,
+            "diff": -8.59,
+            "diffPercent": -86.94
+          },
+          "maxWaitMs": {
+            "base": 859.38,
+            "compare": 1052.36,
+            "diff": 192.98,
+            "diffPercent": 22.46
+          },
+          "requestCount": {
+            "base": 6.0,
+            "compare": 6.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 2758.79,
+            "compare": 3133.68,
+            "diff": 374.89,
+            "diffPercent": 13.59
+          }
+        },
+        "assets.adobedtm.com": {
+          "avgReceiveMs": {
+            "base": 0.97,
+            "compare": 100.3,
+            "diff": 99.34,
+            "diffPercent": 10264.98
+          },
+          "avgWaitMs": {
+            "base": 131.14,
+            "compare": 121.32,
+            "diff": -9.82,
+            "diffPercent": -7.49
+          },
+          "maxReceiveMs": {
+            "base": 5.83,
+            "compare": 2086.25,
+            "diff": 2080.42,
+            "diffPercent": 35684.73
+          },
+          "maxWaitMs": {
+            "base": 620.78,
+            "compare": 625.59,
+            "diff": 4.81,
+            "diffPercent": 0.77
+          },
+          "requestCount": {
+            "base": 22.0,
+            "compare": 21.0,
+            "diff": -1.0,
+            "diffPercent": -4.55
+          },
+          "totalTimeMs": {
+            "base": 3406.64,
+            "compare": 6963.44,
+            "diff": 3556.8,
+            "diffPercent": 104.41
+          }
+        },
+        "bam.nr-data.net": {
+          "avgReceiveMs": {
+            "base": 1.3,
+            "compare": 1.13,
+            "diff": -0.17,
+            "diffPercent": -13.12
+          },
+          "avgWaitMs": {
+            "base": 214.7,
+            "compare": 121.38,
+            "diff": -93.32,
+            "diffPercent": -43.46
+          },
+          "maxReceiveMs": {
+            "base": 2.98,
+            "compare": 1.9,
+            "diff": -1.08,
+            "diffPercent": -36.24
+          },
+          "maxWaitMs": {
+            "base": 613.63,
+            "compare": 221.92,
+            "diff": -391.71,
+            "diffPercent": -63.83
+          },
+          "requestCount": {
+            "base": 6.0,
+            "compare": 5.0,
+            "diff": -1.0,
+            "diffPercent": -16.67
+          },
+          "totalTimeMs": {
+            "base": 1361.3,
+            "compare": 641.24,
+            "diff": -720.06,
+            "diffPercent": -52.9
+          }
+        },
+        "canadiantire.scene7.com": {
+          "avgReceiveMs": {
+            "base": 787.09,
+            "compare": 46.06,
+            "diff": -741.04,
+            "diffPercent": -94.15
+          },
+          "avgWaitMs": {
+            "base": 669.0,
+            "compare": 127.52,
+            "diff": -541.48,
+            "diffPercent": -80.94
+          },
+          "maxReceiveMs": {
+            "base": 1362.92,
+            "compare": 76.12,
+            "diff": -1286.8,
+            "diffPercent": -94.41
+          },
+          "maxWaitMs": {
+            "base": 1071.4,
+            "compare": 154.85,
+            "diff": -916.55,
+            "diffPercent": -85.55
+          },
+          "requestCount": {
+            "base": 17.0,
+            "compare": 17.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 45315.79,
+            "compare": 4281.78,
+            "diff": -41034.01,
+            "diffPercent": -90.55
+          }
+        },
+        "canadiantire.tt.omtrdc.net": {
+          "avgReceiveMs": {
+            "base": 37.41,
+            "compare": 26.77,
+            "diff": -10.64,
+            "diffPercent": -28.44
+          },
+          "avgWaitMs": {
+            "base": 165.57,
+            "compare": 130.88,
+            "diff": -34.69,
+            "diffPercent": -20.95
+          },
+          "maxReceiveMs": {
+            "base": 111.23,
+            "compare": 79.57,
+            "diff": -31.66,
+            "diffPercent": -28.46
+          },
+          "maxWaitMs": {
+            "base": 292.68,
+            "compare": 265.26,
+            "diff": -27.42,
+            "diffPercent": -9.37
+          },
+          "requestCount": {
+            "base": 3.0,
+            "compare": 3.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 904.44,
+            "compare": 699.91,
+            "diff": -204.53,
+            "diffPercent": -22.61
+          }
+        },
+        "canadiantirecorporation.us-6.evergage.com": {
+          "avgReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "avgWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "requestCount": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          }
+        },
+        "cdn-scripts.signifyd.com": {
+          "avgReceiveMs": {
+            "base": 1.69,
+            "compare": 1.64,
+            "diff": -0.05,
+            "diffPercent": -3.16
+          },
+          "avgWaitMs": {
+            "base": 84.23,
+            "compare": 131.01,
+            "diff": 46.78,
+            "diffPercent": 55.54
+          },
+          "maxReceiveMs": {
+            "base": 5.85,
+            "compare": 4.57,
+            "diff": -1.28,
+            "diffPercent": -21.88
+          },
+          "maxWaitMs": {
+            "base": 244.5,
+            "compare": 459.07,
+            "diff": 214.57,
+            "diffPercent": 87.76
+          },
+          "requestCount": {
+            "base": 6.0,
+            "compare": 6.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 651.17,
+            "compare": 955.01,
+            "diff": 303.84,
+            "diffPercent": 46.66
+          }
+        },
+        "cdn.cookielaw.org": {
+          "avgReceiveMs": {
+            "base": 31.84,
+            "compare": 100.12,
+            "diff": 68.27,
+            "diffPercent": 214.41
+          },
+          "avgWaitMs": {
+            "base": 97.58,
+            "compare": 97.72,
+            "diff": 0.14,
+            "diffPercent": 0.14
+          },
+          "maxReceiveMs": {
+            "base": 472.72,
+            "compare": 1582.73,
+            "diff": 1110.01,
+            "diffPercent": 234.81
+          },
+          "maxWaitMs": {
+            "base": 520.48,
+            "compare": 745.4,
+            "diff": 224.92,
+            "diffPercent": 43.21
+          },
+          "requestCount": {
+            "base": 18.0,
+            "compare": 16.0,
+            "diff": -2.0,
+            "diffPercent": -11.11
+          },
+          "totalTimeMs": {
+            "base": 3128.38,
+            "compare": 4792.27,
+            "diff": 1663.89,
+            "diffPercent": 53.19
+          }
+        },
+        "cdn.evgnet.com": {
+          "avgReceiveMs": {
+            "base": 1.1,
+            "compare": 0.99,
+            "diff": -0.11,
+            "diffPercent": -10.41
+          },
+          "avgWaitMs": {
+            "base": 44.38,
+            "compare": 91.86,
+            "diff": 47.48,
+            "diffPercent": 106.96
+          },
+          "maxReceiveMs": {
+            "base": 1.87,
+            "compare": 1.87,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "maxWaitMs": {
+            "base": 87.81,
+            "compare": 182.43,
+            "diff": 94.62,
+            "diffPercent": 107.76
+          },
+          "requestCount": {
+            "base": 2.0,
+            "compare": 2.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 135.74,
+            "compare": 211.12,
+            "diff": 75.38,
+            "diffPercent": 55.53
+          }
+        },
+        "cdns.gigya.com": {
+          "avgReceiveMs": {
+            "base": 119.43,
+            "compare": 545.8,
+            "diff": 426.37,
+            "diffPercent": 356.99
+          },
+          "avgWaitMs": {
+            "base": 537.77,
+            "compare": 331.71,
+            "diff": -206.06,
+            "diffPercent": -38.32
+          },
+          "maxReceiveMs": {
+            "base": 474.14,
+            "compare": 1635.92,
+            "diff": 1161.78,
+            "diffPercent": 245.03
+          },
+          "maxWaitMs": {
+            "base": 1042.86,
+            "compare": 803.8,
+            "diff": -239.06,
+            "diffPercent": -22.92
+          },
+          "requestCount": {
+            "base": 4.0,
+            "compare": 3.0,
+            "diff": -1.0,
+            "diffPercent": -25.0
+          },
+          "totalTimeMs": {
+            "base": 3710.84,
+            "compare": 4746.91,
+            "diff": 1036.07,
+            "diffPercent": 27.92
+          }
+        },
+        "content.canadiantire.ca": {
+          "avgReceiveMs": {
+            "base": 7.85,
+            "compare": 4.66,
+            "diff": -3.2,
+            "diffPercent": -40.7
+          },
+          "avgWaitMs": {
+            "base": 142.16,
+            "compare": 226.55,
+            "diff": 84.39,
+            "diffPercent": 59.36
+          },
+          "maxReceiveMs": {
+            "base": 48.53,
+            "compare": 26.96,
+            "diff": -21.57,
+            "diffPercent": -44.45
+          },
+          "maxWaitMs": {
+            "base": 435.74,
+            "compare": 892.49,
+            "diff": 456.75,
+            "diffPercent": 104.82
+          },
+          "requestCount": {
+            "base": 18.0,
+            "compare": 19.0,
+            "diff": 1.0,
+            "diffPercent": 5.56
+          },
+          "totalTimeMs": {
+            "base": 3630.51,
+            "compare": 5231.88,
+            "diff": 1601.37,
+            "diffPercent": 44.11
+          }
+        },
+        "d.criteo.com": {
+          "avgReceiveMs": {
+            "base": 6.14,
+            "compare": 5.68,
+            "diff": -0.46,
+            "diffPercent": -7.49
+          },
+          "avgWaitMs": {
+            "base": 182.16,
+            "compare": 260.75,
+            "diff": 78.59,
+            "diffPercent": 43.14
+          },
+          "maxReceiveMs": {
+            "base": 6.14,
+            "compare": 5.68,
+            "diff": -0.46,
+            "diffPercent": -7.49
+          },
+          "maxWaitMs": {
+            "base": 182.16,
+            "compare": 260.75,
+            "diff": 78.59,
+            "diffPercent": 43.14
+          },
+          "requestCount": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 329.2,
+            "compare": 850.28,
+            "diff": 521.08,
+            "diffPercent": 158.29
+          }
+        },
+        "d.impactradius-event.com": {
+          "avgReceiveMs": {
+            "base": 1.64,
+            "compare": 1.58,
+            "diff": -0.05,
+            "diffPercent": -3.06
+          },
+          "avgWaitMs": {
+            "base": 10.87,
+            "compare": 13.23,
+            "diff": 2.36,
+            "diffPercent": 21.71
+          },
+          "maxReceiveMs": {
+            "base": 3.21,
+            "compare": 3.01,
+            "diff": -0.2,
+            "diffPercent": -6.23
+          },
+          "maxWaitMs": {
+            "base": 19.9,
+            "compare": 25.36,
+            "diff": 5.46,
+            "diffPercent": 27.44
+          },
+          "requestCount": {
+            "base": 2.0,
+            "compare": 2.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 198.77,
+            "compare": 194.3,
+            "diff": -4.47,
+            "diffPercent": -2.25
+          }
+        },
+        "dp.signifyd.com": {
+          "avgReceiveMs": {
+            "base": 138.59,
+            "compare": 158.3,
+            "diff": 19.71,
+            "diffPercent": 14.22
+          },
+          "avgWaitMs": {
+            "base": 98.2,
+            "compare": 118.71,
+            "diff": 20.51,
+            "diffPercent": 20.89
+          },
+          "maxReceiveMs": {
+            "base": 335.33,
+            "compare": 357.03,
+            "diff": 21.7,
+            "diffPercent": 6.47
+          },
+          "maxWaitMs": {
+            "base": 181.08,
+            "compare": 171.96,
+            "diff": -9.12,
+            "diffPercent": -5.04
+          },
+          "requestCount": {
+            "base": 4.0,
+            "compare": 4.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 1394.88,
+            "compare": 1772.75,
+            "diff": 377.87,
+            "diffPercent": 27.09
+          }
+        },
+        "dynamic.criteo.com": {
+          "avgReceiveMs": {
+            "base": 1295.4,
+            "compare": 0.87,
+            "diff": -1294.53,
+            "diffPercent": -99.93
+          },
+          "avgWaitMs": {
+            "base": 215.81,
+            "compare": 121.03,
+            "diff": -94.78,
+            "diffPercent": -43.92
+          },
+          "maxReceiveMs": {
+            "base": 1295.4,
+            "compare": 0.87,
+            "diff": -1294.53,
+            "diffPercent": -99.93
+          },
+          "maxWaitMs": {
+            "base": 215.81,
+            "compare": 121.03,
+            "diff": -94.78,
+            "diffPercent": -43.92
+          },
+          "requestCount": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 3513.21,
+            "compare": 674.01,
+            "diff": -2839.2,
+            "diffPercent": -80.81
+          }
+        },
+        "edge.adobedc.net": {
+          "avgReceiveMs": {
+            "base": 1.07,
+            "compare": 2.2,
+            "diff": 1.12,
+            "diffPercent": 104.53
+          },
+          "avgWaitMs": {
+            "base": 164.42,
+            "compare": 245.73,
+            "diff": 81.31,
+            "diffPercent": 49.45
+          },
+          "maxReceiveMs": {
+            "base": 2.02,
+            "compare": 8.95,
+            "diff": 6.93,
+            "diffPercent": 343.07
+          },
+          "maxWaitMs": {
+            "base": 596.64,
+            "compare": 675.66,
+            "diff": 79.02,
+            "diffPercent": 13.24
+          },
+          "requestCount": {
+            "base": 8.0,
+            "compare": 8.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 1453.23,
+            "compare": 2130.55,
+            "diff": 677.32,
+            "diffPercent": 46.61
+          }
+        },
+        "edge.curalate.com": {
+          "avgReceiveMs": {
+            "base": 6.82,
+            "compare": 7.67,
+            "diff": 0.85,
+            "diffPercent": 12.49
+          },
+          "avgWaitMs": {
+            "base": 417.83,
+            "compare": 185.95,
+            "diff": -231.88,
+            "diffPercent": -55.5
+          },
+          "maxReceiveMs": {
+            "base": 35.44,
+            "compare": 32.22,
+            "diff": -3.22,
+            "diffPercent": -9.09
+          },
+          "maxWaitMs": {
+            "base": 1260.27,
+            "compare": 549.45,
+            "diff": -710.82,
+            "diffPercent": -56.4
+          },
+          "requestCount": {
+            "base": 6.0,
+            "compare": 6.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 3288.71,
+            "compare": 1465.46,
+            "diff": -1823.25,
+            "diffPercent": -55.44
+          }
+        },
+        "fonts.googleapis.com": {
+          "avgReceiveMs": {
+            "base": 21.46,
+            "compare": 1.36,
+            "diff": -20.1,
+            "diffPercent": -93.66
+          },
+          "avgWaitMs": {
+            "base": 73.74,
+            "compare": 12.27,
+            "diff": -61.47,
+            "diffPercent": -83.36
+          },
+          "maxReceiveMs": {
+            "base": 42.86,
+            "compare": 2.57,
+            "diff": -40.29,
+            "diffPercent": -94.0
+          },
+          "maxWaitMs": {
+            "base": 147.24,
+            "compare": 24.12,
+            "diff": -123.12,
+            "diffPercent": -83.62
+          },
+          "requestCount": {
+            "base": 2.0,
+            "compare": 2.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 265.28,
+            "compare": 99.17,
+            "diff": -166.11,
+            "diffPercent": -62.62
+          }
+        },
+        "fonts.gstatic.com": {
+          "avgReceiveMs": {
+            "base": 71.34,
+            "compare": 35.26,
+            "diff": -36.07,
+            "diffPercent": -50.57
+          },
+          "avgWaitMs": {
+            "base": 187.42,
+            "compare": 98.79,
+            "diff": -88.63,
+            "diffPercent": -47.29
+          },
+          "maxReceiveMs": {
+            "base": 255.57,
+            "compare": 107.71,
+            "diff": -147.86,
+            "diffPercent": -57.85
+          },
+          "maxWaitMs": {
+            "base": 557.02,
+            "compare": 280.0,
+            "diff": -277.02,
+            "diffPercent": -49.73
+          },
+          "requestCount": {
+            "base": 6.0,
+            "compare": 6.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 2440.1,
+            "compare": 1326.68,
+            "diff": -1113.42,
+            "diffPercent": -45.63
+          }
+        },
+        "geolocation.onetrust.com": {
+          "avgReceiveMs": {
+            "base": 2.5,
+            "compare": 1.44,
+            "diff": -1.06,
+            "diffPercent": -42.28
+          },
+          "avgWaitMs": {
+            "base": 54.38,
+            "compare": 159.16,
+            "diff": 104.78,
+            "diffPercent": 192.7
+          },
+          "maxReceiveMs": {
+            "base": 2.94,
+            "compare": 1.47,
+            "diff": -1.47,
+            "diffPercent": -50.0
+          },
+          "maxWaitMs": {
+            "base": 72.2,
+            "compare": 211.72,
+            "diff": 139.52,
+            "diffPercent": 193.24
+          },
+          "requestCount": {
+            "base": 2.0,
+            "compare": 2.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 204.87,
+            "compare": 355.52,
+            "diff": 150.65,
+            "diffPercent": 73.53
+          }
+        },
+        "gigya.canadiantire.ca": {
+          "avgReceiveMs": {
+            "base": 51.04,
+            "compare": 2.94,
+            "diff": -48.1,
+            "diffPercent": -94.24
+          },
+          "avgWaitMs": {
+            "base": 211.1,
+            "compare": 158.94,
+            "diff": -52.15,
+            "diffPercent": -24.71
+          },
+          "maxReceiveMs": {
+            "base": 547.13,
+            "compare": 11.2,
+            "diff": -535.93,
+            "diffPercent": -97.95
+          },
+          "maxWaitMs": {
+            "base": 1166.17,
+            "compare": 579.37,
+            "diff": -586.8,
+            "diffPercent": -50.32
+          },
+          "requestCount": {
+            "base": 13.0,
+            "compare": 13.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 3889.57,
+            "compare": 2948.55,
+            "diff": -941.02,
+            "diffPercent": -24.19
+          }
+        },
+        "googleads.g.doubleclick.net": {
+          "base": null,
+          "compare": {
+            "requestCount": 2.0,
+            "totalTimeMs": 354.4,
+            "avgWaitMs": 104.35499999999999,
+            "maxWaitMs": 104.72,
+            "avgReceiveMs": 24.575,
+            "maxReceiveMs": 46.8
+          },
+          "changed": true
+        },
+        "gum.criteo.com": {
+          "avgReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "avgWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "requestCount": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          }
+        },
+        "h.online-metrix.net": {
+          "avgReceiveMs": {
+            "base": 5.13,
+            "compare": 3.01,
+            "diff": -2.12,
+            "diffPercent": -41.27
+          },
+          "avgWaitMs": {
+            "base": 112.64,
+            "compare": 116.68,
+            "diff": 4.04,
+            "diffPercent": 3.59
+          },
+          "maxReceiveMs": {
+            "base": 28.77,
+            "compare": 25.89,
+            "diff": -2.88,
+            "diffPercent": -10.01
+          },
+          "maxWaitMs": {
+            "base": 525.66,
+            "compare": 552.78,
+            "diff": 27.12,
+            "diffPercent": 5.16
+          },
+          "requestCount": {
+            "base": 19.0,
+            "compare": 19.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 3211.98,
+            "compare": 2737.7,
+            "diff": -474.28,
+            "diffPercent": -14.77
+          }
+        },
+        "h64.online-metrix.net": {
+          "avgReceiveMs": {
+            "base": 3.5,
+            "compare": 5.21,
+            "diff": 1.71,
+            "diffPercent": 48.79
+          },
+          "avgWaitMs": {
+            "base": 386.11,
+            "compare": 362.89,
+            "diff": -23.22,
+            "diffPercent": -6.01
+          },
+          "maxReceiveMs": {
+            "base": 4.26,
+            "compare": 5.25,
+            "diff": 0.99,
+            "diffPercent": 23.24
+          },
+          "maxWaitMs": {
+            "base": 404.55,
+            "compare": 422.56,
+            "diff": 18.01,
+            "diffPercent": 4.45
+          },
+          "requestCount": {
+            "base": 2.0,
+            "compare": 2.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 917.76,
+            "compare": 914.26,
+            "diff": -3.5,
+            "diffPercent": -0.38
+          }
+        },
+        "imgs.signifyd.com": {
+          "avgReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "avgWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "requestCount": {
+            "base": 2.0,
+            "compare": 2.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          }
+        },
+        "js-agent.newrelic.com": {
+          "avgReceiveMs": {
+            "base": 0.64,
+            "compare": 0.44,
+            "diff": -0.2,
+            "diffPercent": -30.71
+          },
+          "avgWaitMs": {
+            "base": 53.78,
+            "compare": 47.11,
+            "diff": -6.66,
+            "diffPercent": -12.38
+          },
+          "maxReceiveMs": {
+            "base": 1.21,
+            "compare": 0.78,
+            "diff": -0.43,
+            "diffPercent": -35.54
+          },
+          "maxWaitMs": {
+            "base": 107.04,
+            "compare": 93.46,
+            "diff": -13.58,
+            "diffPercent": -12.69
+          },
+          "requestCount": {
+            "base": 2.0,
+            "compare": 2.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 157.68,
+            "compare": 111.23,
+            "diff": -46.45,
+            "diffPercent": -29.46
+          }
+        },
+        "media-triangle.canadiantire.ca": {
+          "avgReceiveMs": {
+            "base": 1035.19,
+            "compare": 751.62,
+            "diff": -283.57,
+            "diffPercent": -27.39
+          },
+          "avgWaitMs": {
+            "base": 463.79,
+            "compare": 85.01,
+            "diff": -378.78,
+            "diffPercent": -81.67
+          },
+          "maxReceiveMs": {
+            "base": 2161.94,
+            "compare": 4353.61,
+            "diff": 2191.67,
+            "diffPercent": 101.38
+          },
+          "maxWaitMs": {
+            "base": 770.24,
+            "compare": 258.13,
+            "diff": -512.11,
+            "diffPercent": -66.49
+          },
+          "requestCount": {
+            "base": 18.0,
+            "compare": 18.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 49915.79,
+            "compare": 29166.55,
+            "diff": -20749.24,
+            "diffPercent": -41.57
+          }
+        },
+        "media-www.canadiantire.ca": {
+          "avgReceiveMs": {
+            "base": 314.2,
+            "compare": 2671.5,
+            "diff": 2357.3,
+            "diffPercent": 750.25
+          },
+          "avgWaitMs": {
+            "base": 614.37,
+            "compare": 161.98,
+            "diff": -452.39,
+            "diffPercent": -73.63
+          },
+          "maxReceiveMs": {
+            "base": 604.48,
+            "compare": 4399.69,
+            "diff": 3795.21,
+            "diffPercent": 627.85
+          },
+          "maxWaitMs": {
+            "base": 1119.61,
+            "compare": 347.45,
+            "diff": -772.16,
+            "diffPercent": -68.97
+          },
+          "requestCount": {
+            "base": 60.0,
+            "compare": 60.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 81171.7,
+            "compare": 335444.36,
+            "diff": 254272.66,
+            "diffPercent": 313.25
+          }
+        },
+        "perf-www.canadiantire.ca": {
+          "avgReceiveMs": {
+            "base": 55.94,
+            "compare": 419.11,
+            "diff": 363.17,
+            "diffPercent": 649.23
+          },
+          "avgWaitMs": {
+            "base": 242.92,
+            "compare": 353.37,
+            "diff": 110.45,
+            "diffPercent": 45.47
+          },
+          "maxReceiveMs": {
+            "base": 484.97,
+            "compare": 4390.57,
+            "diff": 3905.6,
+            "diffPercent": 805.33
+          },
+          "maxWaitMs": {
+            "base": 1696.84,
+            "compare": 4306.53,
+            "diff": 2609.69,
+            "diffPercent": 153.8
+          },
+          "requestCount": {
+            "base": 122.0,
+            "compare": 120.0,
+            "diff": -2.0,
+            "diffPercent": -1.64
+          },
+          "totalTimeMs": {
+            "base": 45598.24,
+            "compare": 143462.55,
+            "diff": 97864.31,
+            "diffPercent": 214.62
+          }
+        },
+        "s7d5.scene7.com": {
+          "avgReceiveMs": {
+            "base": 1332.06,
+            "compare": 62.59,
+            "diff": -1269.47,
+            "diffPercent": -95.3
+          },
+          "avgWaitMs": {
+            "base": 376.45,
+            "compare": 125.52,
+            "diff": -250.93,
+            "diffPercent": -66.66
+          },
+          "maxReceiveMs": {
+            "base": 1332.06,
+            "compare": 62.59,
+            "diff": -1269.47,
+            "diffPercent": -95.3
+          },
+          "maxWaitMs": {
+            "base": 376.45,
+            "compare": 125.52,
+            "diff": -250.93,
+            "diffPercent": -66.66
+          },
+          "requestCount": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 3509.62,
+            "compare": 266.3,
+            "diff": -3243.32,
+            "diffPercent": -92.41
+          }
+        },
+        "securepubads.g.doubleclick.net": {
+          "avgReceiveMs": {
+            "base": 145.09,
+            "compare": 881.06,
+            "diff": 735.97,
+            "diffPercent": 507.25
+          },
+          "avgWaitMs": {
+            "base": 353.87,
+            "compare": 134.1,
+            "diff": -219.77,
+            "diffPercent": -62.1
+          },
+          "maxReceiveMs": {
+            "base": 485.08,
+            "compare": 4390.69,
+            "diff": 3905.61,
+            "diffPercent": 805.15
+          },
+          "maxWaitMs": {
+            "base": 1012.0,
+            "compare": 652.35,
+            "diff": -359.65,
+            "diffPercent": -35.54
+          },
+          "requestCount": {
+            "base": 6.0,
+            "compare": 5.0,
+            "diff": -1.0,
+            "diffPercent": -16.67
+          },
+          "totalTimeMs": {
+            "base": 3848.34,
+            "compare": 9590.27,
+            "diff": 5741.93,
+            "diffPercent": 149.21
+          }
+        },
+        "slchvg9p77utfar5sz2togpwmjdaifqixizntozq0b245c5a05fe42fbsac.d.aa.online-metrix.net": {
+          "base": null,
+          "compare": {
+            "requestCount": 1.0,
+            "totalTimeMs": 219.61,
+            "avgWaitMs": 37.44,
+            "maxWaitMs": 37.44,
+            "avgReceiveMs": 2.49,
+            "maxReceiveMs": 2.49
+          },
+          "changed": true
+        },
+        "slchvg9p77utfar5sz2togpwmjdaifqixizntozqf69e0d3447066e04sac.d.aa.online-metrix.net": {
+          "base": null,
+          "compare": {
+            "requestCount": 1.0,
+            "totalTimeMs": 160.56,
+            "avgWaitMs": 65.15,
+            "maxWaitMs": 65.15,
+            "avgReceiveMs": 4.07,
+            "maxReceiveMs": 4.07
+          },
+          "changed": true
+        },
+        "slchvg9pcxpy47yxmne2dlgyfzesfbnxzkegek3u17ac66b23bbf0ae9sac.d.aa.online-metrix.net": {
+          "base": {
+            "requestCount": 1.0,
+            "totalTimeMs": 173.1,
+            "avgWaitMs": 62.21,
+            "maxWaitMs": 62.21,
+            "avgReceiveMs": 1.26,
+            "maxReceiveMs": 1.26
+          },
+          "compare": null,
+          "changed": true
+        },
+        "slchvg9pcxpy47yxmne2dlgyfzesfbnxzkegek3u9a2b71a080f727dasac.d.aa.online-metrix.net": {
+          "base": {
+            "requestCount": 1.0,
+            "totalTimeMs": 124.17,
+            "avgWaitMs": 42.34,
+            "maxWaitMs": 42.34,
+            "avgReceiveMs": 1.41,
+            "maxReceiveMs": 1.41
+          },
+          "compare": null,
+          "changed": true
+        },
+        "sslwidget.criteo.com": {
+          "avgReceiveMs": {
+            "base": 1.92,
+            "compare": 1.61,
+            "diff": -0.31,
+            "diffPercent": -16.15
+          },
+          "avgWaitMs": {
+            "base": 161.65,
+            "compare": 49.27,
+            "diff": -112.38,
+            "diffPercent": -69.52
+          },
+          "maxReceiveMs": {
+            "base": 1.92,
+            "compare": 1.61,
+            "diff": -0.31,
+            "diffPercent": -16.15
+          },
+          "maxWaitMs": {
+            "base": 161.65,
+            "compare": 49.27,
+            "diff": -112.38,
+            "diffPercent": -69.52
+          },
+          "requestCount": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 323.79,
+            "compare": 474.27,
+            "diff": 150.48,
+            "diffPercent": 46.47
+          }
+        },
+        "www.canadiantire.ca": {
+          "avgReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "avgWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxReceiveMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "maxWaitMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          },
+          "requestCount": {
+            "base": 1.0,
+            "compare": 1.0,
+            "diff": 0.0,
+            "diffPercent": 0.0
+          },
+          "totalTimeMs": {
+            "base": 0.0,
+            "compare": 0.0,
+            "diff": 0.0,
+            "diffPercent": null
+          }
+        },
+        "www.google-analytics.com": {
+          "avgReceiveMs": {
+            "base": 7.13,
+            "compare": 27.26,
+            "diff": 20.12,
+            "diffPercent": 282.08
+          },
+          "avgWaitMs": {
+            "base": 77.44,
+            "compare": 97.6,
+            "diff": 20.16,
+            "diffPercent": 26.04
+          },
+          "maxReceiveMs": {
+            "base": 12.52,
+            "compare": 82.66,
+            "diff": 70.14,
+            "diffPercent": 560.22
+          },
+          "maxWaitMs": {
+            "base": 155.85,
+            "compare": 301.47,
+            "diff": 145.62,
+            "diffPercent": 93.44
+          },
+          "requestCount": {
+            "base": 5.0,
+            "compare": 4.0,
+            "diff": -1.0,
+            "diffPercent": -20.0
+          },
+          "totalTimeMs": {
+            "base": 490.98,
+            "compare": 551.29,
+            "diff": 60.31,
+            "diffPercent": 12.28
+          }
+        },
+        "www.google.com": {
+          "avgReceiveMs": {
+            "base": 42.69,
+            "compare": 111.44,
+            "diff": 68.75,
+            "diffPercent": 161.06
+          },
+          "avgWaitMs": {
+            "base": 202.38,
+            "compare": 75.21,
+            "diff": -127.17,
+            "diffPercent": -62.84
+          },
+          "maxReceiveMs": {
+            "base": 213.94,
+            "compare": 687.97,
+            "diff": 474.03,
+            "diffPercent": 221.57
+          },
+          "maxWaitMs": {
+            "base": 596.94,
+            "compare": 160.76,
+            "diff": -436.18,
+            "diffPercent": -73.07
+          },
+          "requestCount": {
+            "base": 8.0,
+            "compare": 9.0,
+            "diff": 1.0,
+            "diffPercent": 12.5
+          },
+          "totalTimeMs": {
+            "base": 2195.74,
+            "compare": 1843.15,
+            "diff": -352.59,
+            "diffPercent": -16.06
+          }
+        },
+        "www.googletagmanager.com": {
+          "avgReceiveMs": {
+            "base": 21.03,
+            "compare": 1239.47,
+            "diff": 1218.44,
+            "diffPercent": 5795.22
+          },
+          "avgWaitMs": {
+            "base": 180.88,
+            "compare": 185.44,
+            "diff": 4.56,
+            "diffPercent": 2.52
+          },
+          "maxReceiveMs": {
+            "base": 179.68,
+            "compare": 3718.41,
+            "diff": 3538.73,
+            "diffPercent": 1969.46
+          },
+          "maxWaitMs": {
+            "base": 700.95,
+            "compare": 556.31,
+            "diff": -144.64,
+            "diffPercent": -20.63
+          },
+          "requestCount": {
+            "base": 12.0,
+            "compare": 3.0,
+            "diff": -9.0,
+            "diffPercent": -75.0
+          },
+          "totalTimeMs": {
+            "base": 3215.4,
+            "compare": 8157.64,
+            "diff": 4942.24,
+            "diffPercent": 153.71
+          }
+        }
+      }
+    }
+  }
+}
